@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/projeto.css" />
+
+    <title>Document</title>
+  </head>
+  <body class="main-imagem">
+    <section class="container">
+      <h1>Leitor de código</h1>
+      <form class="form" id="formulario" method="POST">
+        <label for="codigo"></label>
+        <input
+          type="text"
+          id="details"
+          name="details"
+          placeholder="ex: 888333555999000"
+        />
+        <button type="submit">Detalhes</button>
+      </form>
+
+      <div id="resultado"></div>
+
+      <ul id="event-list"></ul>
+    </section>
+    <div class="intro-img">
+      <img src="/img/Dieta novo.svg" alt="Carinha" />
+    </div>
+
+    <script src="/projeto.js"></script>
+    <script src="/main.js"></script>
+  </body>
+</html>
